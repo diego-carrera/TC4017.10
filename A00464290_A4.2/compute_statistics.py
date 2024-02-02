@@ -1,6 +1,6 @@
 """
 Program: compute_statistics.py
-Author: Diego Carrera Nicholls
+Author: Diego Carrera Nicholls A00464290
 Date: 2023-01-30
 Version: 1.0
 Description: Compute statistics for a given dataset.

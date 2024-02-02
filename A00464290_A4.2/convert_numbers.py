@@ -1,6 +1,6 @@
 """
 Program: convert_numbers.py
-Author: Diego Carrera Nicholls
+Author: Diego Carrera Nicholls A00464290
 Date: 2023-01-30
 Version: 1.0
 Description: Convert numbers to binary and hex.

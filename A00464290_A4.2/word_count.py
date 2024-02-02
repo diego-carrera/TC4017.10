@@ -1,6 +1,6 @@
 """
 Program: word_count.py
-Author: Diego Carrera Nicholls
+Author: Diego Carrera Nicholls A00464290
 Date: 2023-01-30
 Version: 1.0
 Description: Count the frequency of words in a given dataset.
