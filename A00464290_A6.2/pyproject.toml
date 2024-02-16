@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.coverage.run]
+source = [
+    "reservations_system",
+    "tests"
+]
+omit = [
+    "*/site-packages/*",
+    "*/tests/*",
+    "*/__init__.py",
+    "*/__main__.py",
+]
+
+[tool.coverage.report]
+fail_under = 85
+
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "if self.debug:",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "def main()",
+]
+
+[tool.coverage.paths]
+source = [
+    "reservations_system",
+    "*/site-packages",
+]
+
+[tool.coverage.html]
+directory = "coverage_html_report"
