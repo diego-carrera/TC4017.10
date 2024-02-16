@@ -1,0 +1,99 @@
+test_add_customer (tests.customers_manager_test.TestCustomersManager.test_add_customer)
+Test the add_customer method ... ok
+test_display_customer (tests.customers_manager_test.TestCustomersManager.test_display_customer)
+Test the display_customer method ... ok
+test_edit_customer (tests.customers_manager_test.TestCustomersManager.test_edit_customer)
+Test the edit_customer method ... ok
+test_get_customer (tests.customers_manager_test.TestCustomersManager.test_get_customer)
+Test the get_customer method ... ok
+test_init (tests.customers_manager_test.TestCustomersManager.test_init)
+Test the __init__ method ... ok
+test_load_customers (tests.customers_manager_test.TestCustomersManager.test_load_customers)
+Test the _load_customers method ... ok
+test_remove_customer (tests.customers_manager_test.TestCustomersManager.test_remove_customer)
+Test the remove_customer method ... ok
+test_display_customer_info (tests.customers_test.TestCustomer.test_display_customer_info)
+Test the display_customer_info method ... ok
+test_init (tests.customers_test.TestCustomer.test_init)
+Test the __init__ method ... ok
+test_repr (tests.customers_test.TestCustomer.test_repr)
+Test the __repr__ method ... ok
+test_str (tests.customers_test.TestCustomer.test_str)
+Test the __str__ method ... ok
+test_to_json (tests.customers_test.TestCustomer.test_to_json)
+Test the to_json method ... ok
+test_add_hotel (tests.hotels_manager_test.TestHotelsManager.test_add_hotel)
+Test the add_hotel method ... ok
+test_cancel_reservation (tests.hotels_manager_test.TestHotelsManager.test_cancel_reservation)
+Test the cancel_reservation method ... ok
+test_display_hotel (tests.hotels_manager_test.TestHotelsManager.test_display_hotel)
+Test the display_hotel method ... ok
+test_edit_hotel (tests.hotels_manager_test.TestHotelsManager.test_edit_hotel)
+Test the edit_hotel method ... ok
+test_get_hotel (tests.hotels_manager_test.TestHotelsManager.test_get_hotel)
+Test the get_hotel method ... ok
+test_init (tests.hotels_manager_test.TestHotelsManager.test_init)
+Test the __init__ method ... ok
+test_init_empty (tests.hotels_manager_test.TestHotelsManager.test_init_empty)
+Test the __init__ method with an empty file ... ok
+test_load_hotels (tests.hotels_manager_test.TestHotelsManager.test_load_hotels)
+Test the _load_hotels method ... ok
+test_remove_hotel (tests.hotels_manager_test.TestHotelsManager.test_remove_hotel)
+Test the remove_hotel method ... ok
+test_reserve_room (tests.hotels_manager_test.TestHotelsManager.test_reserve_room)
+Test the reserve_room method ... ok
+test_display_hotel_info (tests.hotels_test.TestHotel.test_display_hotel_info)
+Test the display_hotel_info method ... ok
+test_init (tests.hotels_test.TestHotel.test_init)
+Test the __init__ method ... ok
+test_repr (tests.hotels_test.TestHotel.test_repr)
+Test the __repr__ method ... ok
+test_str (tests.hotels_test.TestHotel.test_str)
+Test the __str__ method ... ok
+test_cancel_reservation (tests.reservations_manager_test.TestReservationsManager.test_cancel_reservation)
+Test the cancel_reservation method ... ok
+test_init (tests.reservations_manager_test.TestReservationsManager.test_init)
+Test the __init__ method ... ok
+test_load_reservations (tests.reservations_manager_test.TestReservationsManager.test_load_reservations)
+Test the _load_reservations method ... ok
+test_load_reservations_no_file (tests.reservations_manager_test.TestReservationsManager.test_load_reservations_no_file)
+Test the _load_reservations method with no file ... ok
+test_reserve_room (tests.reservations_manager_test.TestReservationsManager.test_reserve_room)
+Test the reserve_room method ... ok
+test_init (tests.reservations_test.TestReservation.test_init)
+Test the __init__ method ... ok
+test_repr (tests.reservations_test.TestReservation.test_repr)
+Test the __repr__ method ... ok
+test_str (tests.reservations_test.TestReservation.test_str)
+Test the __str__ method ... ok
+test_init (tests.rooms_test.TestRoom.test_init)
+Test the __init__ method ... ok
+test_repr (tests.rooms_test.TestRoom.test_repr)
+Test the __repr__ method ... ok
+test_str (tests.rooms_test.TestRoom.test_str)
+Test the __str__ method ... ok
+test_to_json (tests.rooms_test.TestRoom.test_to_json)
+Test the to_json method ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.021s
+
+OK
+John Doe - john@email.com
+Customer with email non-existent not found.
+Customer: John Doe - john@email.com
+[hotel1 in location1] hotel1
+[hotel1 in location1] hotel1
+hotel1 in location1
+[hotel1 in location1] hotel2
+Hotel hotel2 not found
+[hotel2 in location2] hotel2
+[hotel1 in location1] hotel1
+[hotel1 in location1] hotel2
+[hotel1 in location1] hotel1
+Hotel: Hilton
+Location: New York
+Rooms:
+Room 101 - RoomType.SINGLE - RoomStatus.AVAILABLE
+Room 102 - RoomType.DOUBLE - RoomStatus.AVAILABLE
+Room 103 - RoomType.SUITE - RoomStatus.AVAILABLE
